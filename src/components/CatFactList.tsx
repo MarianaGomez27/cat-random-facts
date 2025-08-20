@@ -49,9 +49,9 @@ const CatFactList = () => {
   }
 
   return (
-    <div className="min-h-screen bg-[repeating-linear-gradient(145deg,theme(colors.gray.200)_0px,theme(colors.gray.200)_0px,white_1px,white_5px)]">
+    <div className="min-h-screen bg-[repeating-linear-gradient(145deg,theme(colors.gray.300)_0px,theme(colors.gray.300)_0px,white_1px,white_6px)]">
       <div className="container mx-auto p-4 pt-6 ">
-        <div className="bg-gray-50 rounded-lg mx-auto max-w-4xl p-5 border border-gray-200/75">
+        <div className="bg-gray-200 rounded-lg mx-auto max-w-4xl p-5 border border-gray-300/50">
           <div className="space-y-3">
             {data.map((item) => (
               <article
